@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="slider.css">
+    <title>Tu Nombre - Página Principal</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="imagenes/logo.jpg" alt="Logo">
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#about">Equipos</a></li>
+            <li><a href="#careers">Calendario</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </header>
+
+    <div class="slider-container">
+        <div class="slider position"></div>
+    </div>
+
+<!--se acabo el slider-->
+    <section class="contenedor">
+        <div class="ultimos-resultados">
+            <h2>Últimos Resultados</h2>
+            <!-- {% for resultado in ultimos_resultados %} -->
+                <div class="resultado">
+                    <img src="imagenes/equipo1.jpg" alt="Logo del equipo local" class="logo-equipo">
+                    <span class="nombre-equipo">Los Nets</span>
+                    <span class="score">1 -  2 </span>
+                    <span class="nombre-equipo">Los Basketballs</span>
+                    <img src="imagenes/equipo2.jpg" alt="Logo del equipo visitante" class="logo-equipo">
+                </div>
+            <!-- {% endfor %} -->
+        </div>
+
+        <div class="jugadores-destacados">
+            <h2>Jugadores Destacados</h2>
+            <!-- {% for jugador in jugadores_destacados %} -->
+                <div class="jugador">
+                    <img src="imagenes/jugador3.jpg" alt="Foto del jugador" class="foto-jugador">
+                    <div class="info-jugador">
+                        <span class="nombre-jugador">Lebrom</span>
+                        <span class="posicion-jugador">Delantero</span>
+                        <span class="estadisticas-jugador">Goles: 190 - Asistencias: 89 - Tarjetas: 9</span>
+                    </div>
+                </div>
+            <div class="jugador">
+        <img src="imagenes/jugador5.jpg" alt="Foto del jugador" class="foto-jugador">
+        <div class="info-jugador">
+            <span class="nombre-jugador">Otro Jugador</span>
+            <span class="posicion-jugador">Defensa</span>
+            <span class="estadisticas-jugador">Goles: 120 - Asistencias: 45 - Tarjetas: 5</span>
+        </div>
+    </div>
+
+    <div class="jugador">
+        <img src="imagenes/jugador4.jpg" alt="Foto del jugador" class="foto-jugador">
+        <div class="info-jugador">
+            <span class="nombre-jugador">Otro Jugador Más</span>
+            <span class="posicion-jugador">Centrocampista</span>
+            <span class="estadisticas-jugador">Goles: 150 - Asistencias: 60 - Tarjetas: 7</span>
+        </div>
+    </div>
+  </div>
+              <!--esto es de la fecha-->
+        <div class="fotos-de-la-fecha">
+            <h2>Fotos de la Fecha</h2>
+            <!-- {% for foto in fotos_de_la_fecha %} -->
+                <div class="foto-de-la-fecha">
+                    <img src="imagenes/calendario.jpg" alt="Foto de la fecha" class="foto-fecha">
+                </div>
+            <!-- {% endfor %} -->
+        </div>
+    </section>
+        <!-- Agrega contenido del pie de página si es necesario -->
+        <!-- Agrega esto dentro de la sección contenedor -->
+   
+     <!-- NEWS CARDS -->
+    <div class="news-cards">
+      <div>
+        <img src="img/news1.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news2.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news3.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news4.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+        </p>
+        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
+    <!--aca tiene el fin de las tarjetas para las noticias-->
+   <footer>
+  <div class="site-footer-container">
+    <div class="site-footer-content">
+      <div class="site-footer-branding">
+        <a class="logo" href="imagenes/logo.jpg">
+          <img src="imagenes/logo.jpg" alt="Logo">
+        </a>
+        <div class="description">
+          Descripción del sitio.
+        </div>
+      </div>
+      <div class="site-footer-menus">
+        <!-- Menús y enlaces -->
+      </div>
+    </div>
+    <div class="site-info">
+      <div class="copyright">© 2023 Ejemplo - Todos los derechos reservados.</div>
+      <div class="social-media">
+        <!-- Iconos de redes sociales -->
+      </div>
+      <ul class="menu-menu-legal-es">
+        <li><a href="terminosycondiciones.html">Términos de uso</a></li>
+        <li><a href="politicaypriva.html">Política de privacidad</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+    
+    <script src="slide.js"></script>
+    <script src="javascript.js"></script>
+
+</body>
+</html>

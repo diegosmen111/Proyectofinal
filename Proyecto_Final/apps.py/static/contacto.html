@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="stylecontacto.css">
+    <title>Tu Nombre - Contacto y Política de Privacidad</title>
+</head>
+<body>
+
+     
+  <header class="header">
+  <a href="index.html" class="logo">
+    <img src="imagenes/logo.jpg" alt="Logo">
+  </a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="#about">Equipos</a></li>
+    <li><a href="#careers">Calendario</a></li>
+    <li><a href="#careers">Noticias</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</header>
+
+
+    <section class="formulario">
+        <form id="contactForm" onsubmit="return submitForm()">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="button" onclick="submitForm()">Enviar Mensaje</button>
+        </form>
+    </section>
+        </section>
+
+    <footer>
+  <div class="site-footer-container">
+    <div class="site-footer-content">
+      <div class="site-footer-branding">
+        <a class="logo" href="imagenes/logo.jpg">
+          <img src="imagenes/logo.jpg" alt="Logo">
+        </a>
+        <div class="description">
+          Descripción del sitio.
+        </div>
+      </div>
+      <div class="site-footer-menus">
+        <!-- Menús y enlaces -->
+      </div>
+    </div>
+    <div class="site-info">
+      <div class="copyright">© 2023 Ejemplo - Todos los derechos reservados.</div>
+      <div class="social-media">
+        <!-- Iconos de redes sociales -->
+      </div>
+      <ul class="menu-menu-legal-es">
+        <li><a href="terminosycondiciones.html">Términos de uso</a></li>
+        <li><a href="politicaypriva.html">Política de privacidad</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+    <script src="contacto.js"></script>
+</body>
+</html>
